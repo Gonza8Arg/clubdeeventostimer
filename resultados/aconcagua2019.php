@@ -50,16 +50,18 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
         </nav>
-        </header>
+        </header></br>
 <!-- Services-->
 <section class="page-section">
     <div class="container">
+    <div class="row text-center">
         <div class="col-md-12">
         <div class="text-center">
         <h2><font face="Segoe UI">ACONCAGUA ULTRA TRAIL 2019</font></h2>
                     <div class="text-center">
-                        <h4><font face="Segoe UI">15K | 25K | 42K | 60K | 100K</font></h4>
+                        <a><font size=5 face="Segoe UI">15K | 25K | 42K | 60K | 100K</font></a>
                     </div>
+        </div>
         </div>
         </div>
         </div>
@@ -67,7 +69,7 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
         <div class="container">
         <div class="row text-center">
         <div class="col-md-12">
-                    <div class="table-responsive"> 
+                    <div class="table-responsive">
                     <table id="example" class="table table-striped table-hover table-bordered display compact responsive nowrap" cellspacing="0" style="width:100%">    
                     <thead class="text-center table-dark" style="font-size:12px">
                             <tr>
@@ -215,7 +217,7 @@ $resultados=$resultado->fetchAll(PDO::FETCH_ASSOC);
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
         
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
 
 
